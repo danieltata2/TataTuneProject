@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <color name="background">#0A0A0F</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#FFE8D1</color>
+
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#CFCFCF</color>
+    <color name="text_tertiary">#9E9E9E</color>
+
+    <color name="accent_orange">#FF7A00</color>
+    <color name="accent_orange_bright">#FF8F33</color>
+    <color name="accent_orange_soft">#FFD1A6</color>
+
+    <color name="success">#4CAF50</color>
+    <color name="error">#E53935</color>
+    <color name="warning">#FFB74D</color>
+
+    <color name="border">#FFD8B8</color>
+    <color name="divider">#FFE6CC</color>
+    <color name="btn_soft_tint">#FFE6CC</color>
+
+    <color name="player_background">#FFF8F0</color>
+    <color name="album_overlay">#80000000</color>
+
+    <color name="bg_glass">#33FFFFFF</color>
+    <color name="border_glass">#66FFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="bg_dark">#121212</color>
+    <color name="accent_soft_blue">#82B1FF</color>
+
+    <color name="surface_primary">#FFFFFF</color>
+    <color name="progress_track">#33B88E6A</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="surface_dark">#2A2A2A</color>
+    <color name="surface_darker">#3A3A3A</color>
+
+</resources>

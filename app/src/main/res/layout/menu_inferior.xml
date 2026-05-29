@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menuInferior"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="#202020">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/btnMenuPrincipal"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@null"
+            app:tint="@color/white"
+            android:src="@drawable/ic_nav_home" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_inicio"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:layout_marginTop="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/btnMenuCanciones"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@null"
+            app:tint="@color/white"
+            android:src="@drawable/ic_nav_music" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_canciones"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:layout_marginTop="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/btnMenuFavoritos"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@null"
+            app:tint="@color/white"
+            android:src="@drawable/ic_nav_favorite" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_favoritos"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:layout_marginTop="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/btnMenuPlaylists"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@null"
+            app:tint="@color/white"
+            android:src="@drawable/ic_nav_playlist" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_playlist"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:layout_marginTop="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/btnMenuHistorial"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@null"
+            app:tint="@color/white"
+            android:src="@drawable/ic_nav_history" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_historial"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:layout_marginTop="2dp"/>
+    </LinearLayout>
+
+</LinearLayout>

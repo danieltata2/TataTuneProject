@@ -1,0 +1,164 @@
+<resources>
+
+    <string name="app_nombre">TataTune</string>
+
+    <string name="main_titulo">Mi música</string>
+    <string name="main_acceso">ACCESO RAPIDO</string>
+    <string name="main_acceso_canciones">Canciones</string>
+    <string name="main_acceso_fav">Favoritos</string>
+    <string name="main_acceso_pl">Playlists</string>
+    <string name="main_acceso_historial">Historial</string>
+
+    <string name="inicio_titulo">Bienvenido</string>
+    <string name="inicio_correo">Email</string>
+    <string name="inicio_contrasena">Contraseña</string>
+    <string name="inicio_boton">Iniciar sesión</string>
+    <string name="inicio_ir_registro">Crear cuenta</string>
+
+    <string name="registro_titulo">Crear cuenta</string>
+    <string name="registro_nombre">Nombre completo</string>
+    <string name="registro_correo">Email</string>
+    <string name="registro_contrasena">Contraseña</string>
+    <string name="registro_confirmar_contrasena">Confirmar contraseña</string>
+    <string name="registro_boton">Registrarse</string>
+    <string name="registro_seleccionar_foto">Presiona el icono de la musica para seleccionar una foto</string>
+    <string name="registro_cuenta_inicio">¿Ya tienes cuenta? Inicia sesion</string>
+
+    <string name="error_campos_vacios">Completa todos los campos</string>
+    <string name="error_contrasenas_no_coinciden">Las contraseñas no coinciden</string>
+    <string name="error_credenciales_invalidas">Datos incorrectos</string>
+    <string name="error_correo_existente">El email ya está registrado</string>
+    <string name="exito_usuario_registrado">Usuario registrado correctamente</string>
+
+    <string name="reproductor_reproducir">Reproducir</string>
+    <string name="reproductor_pausar">Pausar</string>
+    <string name="reproductor_siguiente">Siguiente</string>
+    <string name="reproductor_anterior">Anterior</string>
+    <string name="reproductor_aleatorio">Aleatorio</string>
+    <string name="reproductor_repetir">Repetir</string>
+
+    <string name="mini_reproduciendo_ahora">Reproduciendo ahora</string>
+
+    <string name="canciones_vacio">No se encontraron canciones</string>
+
+    <string name="favoritos_titulo">Favoritos</string>
+    <string name="favoritos_vacio">No tienes canciones favoritas</string>
+
+    <string name="listas_titulo">Playlists</string>
+    <string name="lista_nueva">Nueva playlist</string>
+    <string name="lista_agregar_cancion">Agregar canción</string>
+    <string name="lista_vacia">No hay canciones en esta playlist</string>
+    <string name="lista_nombre">Noches de jazz</string>
+    <string name="lista_titulo_pl">Añadir\ncanción</string>
+    <string name="lista_anadir">AÑADIR A PLAYLIST</string>
+    <string name="lista_buscar">Buscar cancion...</string>
+    <string name="lista_todas">Todas</string>
+    <string name="lista_recientes">Recientes</string>
+    <string name="lista_favoritas">Favoritas</string>
+    <string name="lista_bl">TU BIBLIOTECA</string>
+    <string name="lista_ncanciones">0 canciones</string>
+
+    <string name="fv_titulo">Favoritos</string>
+    <string name="fv_texto"> MIS FAVORITOS</string>
+    <string name="historial_titulo">Historial</string>
+    <string name="historial_escuchados">ESCUCHADAS RECIENTEMENTE</string>
+    <string name="historial_btn_eliminar">Eliminar historial</string>
+
+    <string name="ecualizador_titulo">Ecualizador</string>
+    <string name="ecualizador_grave">Graves</string>
+    <string name="ecualizador_bajo">Bajos</string>
+    <string name="ecualizador_voces">Voces</string>
+    <string name="ecualizador_claridad">Claridad</string>
+    <string name="ecualizador_agudo">Agudos</string>
+    <string name="ecualizador_bass">Bass Boost</string>
+    <string name="ecualizador_virtualizer">Virtualizer</string>
+
+    <string name="canciones_titulo">Canciones</string>
+    <string name="canciones_obtenidas">MIS CANCIONES</string>
+
+    <string name="btn_atras">Volver</string>
+    <string name="btn_Opciones">Opciones</string>
+    <string name="player_cabecera">REPRODUCIENDO AHORA</string>
+    <string name="player_nombre_cancion">Nombre de la canción</string>
+    <string name="player_artista_cancion">Artista</string>
+    <string name="player_tiempo_cancion">00:00</string>
+    <string name="player_tiempo_final_cancion">03:45</string>
+    <string name="player_siguienteC">Siguiente</string>
+    <string name="player_atrasC">Anterior</string>
+    <string name="player_play_pause">Play o pausa</string>
+
+    <string name="pl_detalle_cabecera">Noches de jazz</string>
+    <string name="pl_canciones">Playlists</string>
+    <string name="pl_playlists">MIS PLAYLISTS</string>
+    <string name="pl_nuevo">NUEVA</string>
+    <string name="pl_crear">Crear playlist</string>
+    <string name="pl_foto">FOTO</string>
+    <string name="pl_foto_elegir">Elegir imagen</string>
+    <string name="pl_nombre">NOMBRE</string>
+    <string name="pl_nombre_hint">Nombre de la playlist</string>
+
+    <string name="item_titulo">Título</string>
+    <string name="item_artista">Artista</string>
+
+    <string name="menu_inicio">Inicio</string>
+    <string name="menu_canciones">Canciones</string>
+    <string name="menu_favoritos">Favoritos</string>
+    <string name="menu_playlist">Playlists</string>
+    <string name="menu_historial">Historial</string>
+
+    <string name="mini_titulo">Título de la canción</string>
+
+    <string name="ajustes_titulo">Ajustes</string>
+    <string name="ajustes_cerrar_sesion">Cerrar sesión</string>
+
+    <string name="notificacion_reproduciendo">Reproduciendo música</string>
+
+    <string name="main_acceso_playlists">Playlists</string>
+
+    <string name="main_recientes_titulo">Escuchado recientemente</string>
+    <string name="main_ver_todo">Ver todo</string>
+
+    <string name="main_reciente_1_titulo">Blinding Lights</string>
+    <string name="main_reciente_1_artista">The Weeknd</string>
+
+    <string name="main_reciente_2_titulo">As It Was</string>
+    <string name="main_reciente_2_artista">Harry Styles</string>
+
+    <string name="main_reciente_3_titulo">Starboy</string>
+    <string name="main_reciente_3_artista">Daft Punk</string>
+
+    <string name="main_reciente_4_titulo">One More Night</string>
+    <string name="main_reciente_4_artista">Maroon 5</string>
+
+    <string name="main_reciente_5_titulo">Calm Down</string>
+    <string name="main_reciente_5_artista">Rema</string>
+
+    <string name="main_artistas_titulo">Artistas populares</string>
+
+    <string name="main_artista_1_nombre">The Weeknd</string>
+    <string name="main_artista_1_seguidores">98 M seguidores</string>
+
+    <string name="main_seguir">Seguir</string>
+
+    <string name="main_artista_2_nombre">Dua Lipa</string>
+    <string name="main_artista_2_seguidores">74 M seguidores</string>
+
+    <string name="main_artista_3_nombre">Bad Bunny</string>
+    <string name="main_artista_3_seguidores">89 M seguidores</string>
+
+    <string name="main_albums_titulo">Albums destacados</string>
+
+    <string name="main_album_1_titulo">After Hours</string>
+    <string name="main_album_1_info">2020 • The Weeknd</string>
+
+    <string name="main_album_2_titulo">Future Nostalgia</string>
+    <string name="main_album_2_info">2020 • Dua Lipa</string>
+
+    <string name="main_album_3_titulo">Un Verano Sin Ti</string>
+    <string name="main_album_3_info">2022 • Bad Bunny</string>
+
+    <string name="main_album_4_titulo">Night Visions</string>
+    <string name="main_album_4_info">2012 • Imagine Dragons</string>
+
+
+</resources>

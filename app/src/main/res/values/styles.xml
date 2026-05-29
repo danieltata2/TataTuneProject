@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ShapeAppearanceOverlay.Circle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.TextField.Rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+    </style>
+
+    <style name="Widget.App.TextInputLayout.OutlinedBox" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+
+        <item name="boxStrokeColor">@color/accent_orange</item>
+        <item name="boxStrokeWidth">1.5dp</item>
+        <item name="boxStrokeWidthFocused">2.5dp</item>
+
+        <item name="hintTextColor">@color/text_secondary</item>
+
+        <item name="android:textColor">@color/text_primary</item>
+
+        <item name="android:textColorHint">@color/text_secondary</item>
+
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.TextField.Rounded</item>
+    </style>
+
+    <style name="Widget.App.Button" parent="Widget.Material3.Button">
+
+        <item name="android:textColor">@android:color/white</item>
+        <item name="backgroundTint">@color/accent_orange</item>
+        <item name="cornerRadius">28dp</item>
+        <item name="rippleColor">@color/accent_orange_bright</item>
+
+        <item name="android:minHeight">52dp</item>
+    </style>
+
+    <style name="Widget.App.Button.Soft" parent="Widget.Material3.Button.TonalButton">
+
+        <item name="android:textColor">@color/accent_orange</item>
+        <item name="backgroundTint">@color/btn_soft_tint</item>
+    </style>
+
+    <style name="ShapeAppearance.RoundedImage" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+
+    <style name="Widget.App.Button.Small" parent="Widget.Material3.Button">
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:backgroundTint">@color/accent_orange</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <style name="RoundedCover" parent="">
+        <item name="cornerSize">20dp</item>
+    </style>
+
+    <style name="RoundedCoverSm">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+</resources>

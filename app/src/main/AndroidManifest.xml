@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_final_logo_foreground"
+        android:label="@string/app_nombre"
+        android:roundIcon="@mipmap/ic_final_logo_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProyectoFinalGasparCurso">
+        <activity
+            android:name=".activities.MainActivity"
+            android:launchMode="singleTop"
+            android:exported="false" />
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.EqualizerActivity"
+            android:exported="false" />
+
+        <service
+            android:name=".activities.MusicService"
+            android:exported="false"
+            android:foregroundServiceType="mediaPlayback" />
+
+        <receiver android:name=".activities.NotificationReceiver" />
+
+        <activity
+            android:name=".activities.MiniPlayerManager"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".activities.HistorialActivity"
+            android:launchMode="singleTask"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AgregarCancionPlaylistActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.PlaylistDetalleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.PlaylistsActivity"
+            android:launchMode="singleTask"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FavoritosActivity"
+            android:launchMode="singleTask"
+            android:exported="false" />
+        <activity
+            android:name=".activities.PlayerActivity"
+            android:launchMode="singleTop"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ListaCancionesActivity"
+            android:launchMode="singleTask"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
